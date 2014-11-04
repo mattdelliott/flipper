@@ -29,18 +29,12 @@ function FlipperFeature() {
         return self;
     };
 
-    this.check = function(context) {
-        var _then;
+    this.check = function(context, done) {
         self.doCheck(context, function(answer){
             if(typeof _then === 'function') {
-                _then(answer === true ? self.flipped : self.unflipped);
+                done(answer === true ? self.flipped : self.unflipped);
             }
         });
-        return {
-            then: function(v){
-                _then = v;
-            }
-        }
     };
 }
 
