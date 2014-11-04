@@ -5,7 +5,7 @@
     "FullContact"
   ],
   "description": "Feature flipping mechanism for the server and browser",
-  "main": "flipper.js",
+  "main": "src/flipper.js",
   "keywords": [
     "feature-flipping",
     "ff",
