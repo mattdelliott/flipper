@@ -1,0 +1,17 @@
+{
+  "name": "flipper",
+  "version": "1.0.0",
+  "description": "Feature flipping mechanism for the server and browser",
+  "main": "flipper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "feature-flipping",
+    "ff",
+    "flipper",
+    "flip"
+  ],
+  "author": "FullContact",
+  "license": "MIT"
+}

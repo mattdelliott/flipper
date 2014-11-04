@@ -1,0 +1,23 @@
+{
+  "name": "flipper",
+  "version": "1.0.0",
+  "authors": [
+    "FullContact"
+  ],
+  "description": "Feature flipping mechanism for the server and browser",
+  "main": "flipper.js",
+  "keywords": [
+    "feature-flipping",
+    "ff",
+    "flipper",
+    "flip"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
