@@ -5,12 +5,13 @@ function FlipperFeature() {
     this.flipped = null;
     this.unflipped = null;
 
-    this.check = function(context, done){
+    this.doCheck = function(context, done){
         done(false);
     };
 
     this.setCheck = function(v){
-        self.check = v;
+        self.doCheck = v;
+        return self;
     };
 
     this.setName = function(v){
@@ -28,13 +29,11 @@ function FlipperFeature() {
         return self;
     };
 
-    this.execute = function(context) {
+    this.check = function(context) {
         var _then;
-        self.check(context, function(answer){
+        self.doCheck(context, function(answer){
             if(typeof _then === 'function') {
-                var fn = answer === true ? self.flipped : self.unflipped,
-                    result = typeof fn === 'function' ? fn() : null;
-                _then(result);
+                _then(answer === true ? self.flipped : self.unflipped);
             }
         });
         return {
