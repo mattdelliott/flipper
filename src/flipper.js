@@ -31,7 +31,7 @@ function FlipperFeature() {
 
     this.check = function(context, done) {
         self.doCheck(context, function(answer){
-            if(typeof _then === 'function') {
+            if(typeof done === 'function') {
                 done(answer === true ? self.flipped : self.unflipped);
             }
         });
