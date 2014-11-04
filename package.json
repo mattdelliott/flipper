@@ -12,7 +12,7 @@
     "flipper",
     "flip"
   ],
-  "author": "FullContact",
+  "author": "mattdelliott",
   "license": "MIT",
   "devDependencies": {
     "grunt-contrib-uglify": "^0.6.0"
