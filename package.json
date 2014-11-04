@@ -1,10 +1,14 @@
 {
-  "name": "flipper",
+  "name": "flipper-js",
   "version": "1.0.2",
   "description": "Feature flipping mechanism for the server and browser",
   "main": "src/flipper.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdelliott/flipper.git"
   },
   "keywords": [
     "feature-flipping",
@@ -12,8 +16,12 @@
     "flipper",
     "flip"
   ],
-  "author": "mattdelliott",
+  "author": "Matt Elliott <mattdelliott@me.com>",
   "license": "MIT",
+  "filed": [
+      "flipper.min.js",
+      "src/flipper.js"
+  ],
   "devDependencies": {
     "grunt-contrib-uglify": "^0.6.0"
   }
