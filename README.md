@@ -1,3 +1,5 @@
+**This repository and package are no longer maintained. flipper-js has been transferred for usage by https://github.com/ThomasDupont/flipper-js**
+
 flipper
 =======
 
